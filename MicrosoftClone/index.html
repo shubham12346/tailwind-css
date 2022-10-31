@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>MicroSoft Clone</title>
+  </head>
+  <body>
+    <div class="container mx-auto">
+      <div class="NavbarMenu p-2 shadow-sm">
+        <div class="flex justify-between">
+          <div class="hamburger flex md:order-2">
+            <div class="md:hidden">
+              <div class="line h-0.5 w-8 bg-black m-1 p-0.5"></div>
+              <div class="line h-0.5 w-8 bg-black m-1 p-0.5"></div>
+              <div class="line h-0.5 w-8 bg-black m-1 p-0.5"></div>
+            </div>
+
+            <div class="Searh md:hidden">search</div>
+          </div>
+
+          <div class="logo md:order-1 flex space-x-2">
+            <div class="items-center justify-center">
+              <img src="/assests/logo.png" alt="" class="w-24 m-1" srcset="" />
+            </div>
+            <div
+              class="features absolute md:static inset-0 -translate-x-96 md:flex md:-translate-x-0 md:space-x-2"
+            >
+              <div class="fitem">Microsoft 365</div>
+              <div class="fitem">Office</div>
+              <div class="fitem">Windows</div>
+              <div class="fitem">surface</div>
+              <div class="fitem">Xbox</div>
+              <div class="fitem">Support</div>
+            </div>
+          </div>
+
+          <div class="cart flex md:order-3 space-x-2">
+            <div class="Searh hidden md:block">search</div>
+
+            <div>Cart</div>
+            <div>Account</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="banner flex flex-col items-center justify-center pt-12 pb-12">
+            <p class="bg-[#52e4ff] rounded-md px-2"> Coming soon </p>
+            <h1 class="text-4xl">Surface Pro 9 </h1>
+     </div> -->
+      <div
+        class="slider p-2 flex flex-col-reverse md:flex-row bg-[#f3f3f3] items-center justify-center shadow-sm"
+      >
+        <div class="left p-1 md:w-1/2 md:px-16">
+          <span class="text-red-700 font-bold mx-3 mt-2 mb-2">New </span>
+          <h1 class="text-2xl font-medium mt-2 mb-2 md:text-4xl">
+            Surface Pro 9
+          </h1>
+          <p class="mx-auto tracking-wide mt-2 mb-2 items-start md:mx-0">
+            Keeps spirits bright with a game changing combo of laptop power and
+            tablet flexibility - all in one ultra-portable device
+          </p>
+
+          <button class="bg-black text-white p-2 px-3 font-medium mt-2 mb-2">
+            Learn More
+          </button>
+        </div>
+        <div class="right">
+          <img src="/assests/lap.avif" alt="" srcset="" />
+        </div>
+      </div>
+
+      <div class="slider-button flex space-x-5 justify-center m-3">
+        <button
+          class="text-[3.2rem] hover:border-2 border-dashed hover:border-blue-900 px-3"
+        >
+          &lt;
+        </button>
+
+        <input type="radio" class="mt-2 w-4" name="" id="" />
+        <input type="radio" class="mt-2 w-4" name="" id="" />
+
+        <button
+          class="text-[3.2rem] hover:border-2 border-dashed hover:border-blue-900 px-3"
+        >
+          &gt;
+        </button>
+      </div>
+
+      <div
+        class="links flex flex-col items-center space-y-5 md:flex-row space-x-7 justify-center"
+      >
+        <div></div>
+        <div class="flex flex-col items-center">
+          <img src="/assests/window-icon.webp" alt="" class="w-14" srcset="" />
+          <p class="text-xl underline font-medium cursor-pointer">
+            Choose your MicroSoft 365
+          </p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="/assests/surface-icon.webp" alt="" class="w-14" srcset="" />
+          <p class="text-xl underline font-medium cursor-pointer">
+            Explore Surface device
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <img src="/assests/x-box-icon.webp" alt="" srcset="" />
+          <p class="text-xl underline font-medium cursor-pointer">
+            Buy Xbox games
+          </p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="/assests/window-icon.webp" class="" alt="" srcset="" />
+          <p class="text-xl underline font-medium cursor-pointer">
+            Get Windows 11
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="StroeServices grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-4 lg:mx-16 mt-10"
+      >
+                <div class="1 mx-auto space-y-1">
+                <img src="/assests/surface-laptop.webp" alt="" srcset="" class=" " />
+                <span class="bg-[#950c17] text-white px-2">New</span>
+                <h2 class="font-medium text-2xl">Surface Laptop 5</h2>
+                <p class="max-w-fit">
+                    Sophisticated style and multitasking speed powered by 12th Gen
+                    Intel® Core™ i5/i7 processors built on the Intel® Evo™ platform make
+                    this the perfect gift
+                </p>
+                <div class="mt-4"><span class="text-red-900">Learn more</span></div>
+                </div>
+
+                <div class="1 mx-auto space-y-1">
+                <img src="/assests/m365.webp" alt="" srcset="" class=" " />
+
+                <h2 class="font-medium text-2xl">Microsoft 365</h2>
+                <p class="max-w-fit">
+                    Apps and features to help you turn ideas into reality, stay safer
+                    and focus on the important things in life.
+                </p>
+                <div class="flex space-x-3 md:flex-row py-3">
+                    <span class="text-red-900">For one person &gt; </span>
+                    <span class="text-red-900">For up to six people &gt; </span>
+                </div>
+                </div>
+                <div class="1 mx-auto space-y-1">
+                <img src="/assests/One-Note.webp" alt="" srcset="" class=" " />
+
+                <h2 class="font-medium text-2xl">OneNote</h2>
+                <p class="max-w-fit">Organise your notes and your life.</p>
+                <div class="mt-4"><span class="text-red-900">Learn more</span></div>
+                </div>
+                <div class="1 mx-auto space-y-1">
+                <img src="/assests/design.jpeg" alt="" srcset="" class=" " />
+
+                <h2 class="font-medium text-2xl">
+                    Designed for life today – and tomorrow
+                </h2>
+                <p class="max-w-fit">
+                    Windows 11 on a laptop. Designed for life today – and tomorrow The
+                    next-generation of games. Your goals. Friends and family. Windows 11
+                    was made to bring you closer to everything you love. See if your PC
+                    is ready
+                </p>
+                <div class="mt-4"><span class="text-red-900"> See if your PC is ready &gt;</span></div>
+        </div>
+      </div>
+
+
+      <div class="EdgePromo my-12 md:relative lg:mx-16 ">
+            
+            <img src="/assests/edge.avif" alt="" class=" w-[85rem] h-[29rem]" srcset="">
+            
+            <div class="rigth mt-8 mx-4 md:absolute inset-0 bg-white md:shadow-md inline-block md:w-1/3 h-fit md:p-12 space-y-5">
+                <h1 class="font-semibold text-4xl">Microsoft Edge</h1>
+                <p class="w-fit"> World-class performance with more privacy ,more productivity and more-value while you browse </p>
+
+                <button  class="mt-4 bg-black text-white px-3 text-md font-semibold py-1 "> Download now </button>
+            </div>
+      </div>
+
+    </div>
+  </body>
+</html>
